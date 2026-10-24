@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    image: my-static-website:latest
+    container_name: static-website
+    labels:
+      ua.pr28.project: pr-28-docker
+    ports:
+      - "127.0.0.1:${HTTP_PORT:-8080}:80"
+    volumes:
+      - type: bind
+        source: ./html
+        target: /usr/share/nginx/html
+        read_only: true

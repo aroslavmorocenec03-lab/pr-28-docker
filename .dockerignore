@@ -1,0 +1,9 @@
+.git
+.work
+reports
+scripts
+examples
+*.md
+*.zip
+compose.yaml
+.gitignore

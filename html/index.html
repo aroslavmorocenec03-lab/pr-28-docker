@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="uk" data-site-version="2">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Docker! — Практична №28</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header><span class="brand"><span class="brand-mark" aria-hidden="true">▦</span>Docker lab</span><span class="practice">Практична №28</span></header>
+    <section class="hero">
+      <p class="eyebrow">Linux · Nginx · Docker</p>
+      <h1>Hello Docker<span>!</span></h1>
+      <p class="lead">Мій перший вебсайт у контейнері.</p>
+      <p class="description">This is a test page in a docker container!</p>
+      <span class="version">Версія 2 · Оновлений сайт</span>
+    </section>
+    <section class="details" aria-label="Параметри проєкту">
+      <article><span class="detail-label">Базовий образ</span><strong>nginx:stable-alpine</strong><p>Вебсервер Nginx на базі Alpine Linux</p></article>
+      <article><span class="detail-label">Порт</span><strong>8080 → 80</strong><p>Порт комп’ютера → порт контейнера</p></article>
+      <article><span class="detail-label">Вміст сайту</span><strong>html/</strong><p>Файли копіюються до образу під час build</p></article>
+    </section>
+    <section class="flow" aria-label="Кроки розгортання"><span>Dockerfile</span><span class="arrow" aria-hidden="true">→</span><span>Образ</span><span class="arrow" aria-hidden="true">→</span><span>Контейнер</span><span class="arrow" aria-hidden="true">→</span><span>Вебсайт</span></section>
+    <footer>Практична робота з Docker · Статичний сайт і відтворюваний запуск</footer>
+  </main>
+</body>
+</html>

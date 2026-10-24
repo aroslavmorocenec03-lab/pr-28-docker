@@ -1,0 +1,5 @@
+.work/
+*.log
+*.exe
+*.msi
+*.zip
