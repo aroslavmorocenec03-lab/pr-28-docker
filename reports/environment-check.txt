@@ -1,0 +1,15 @@
+Перевірка середовища: 24 жовтня 2026 року, Europe/Kiev
+
+Docker Desktop: 4.96.3.244472
+Джерело інсталятора: офіційний сайт Docker
+Цифровий підпис інсталятора: Valid, Docker Inc
+Код завершення інсталятора: 0
+WSL: 3.0.3.0
+Docker CLI: Docker version 29.9.2, build a82e528
+Docker Compose: Docker Compose version v5.6.1
+docker compose config --quiet: код завершення 0
+WindowsRebootPending: true
+HypervisorPresent до перезавантаження: false
+
+Статус запуску контейнерів: ще не перевірено, очікується перезавантаження Windows.
+Початковий перегляд HTML виконано без Docker і не є доказом запуску контейнера.
